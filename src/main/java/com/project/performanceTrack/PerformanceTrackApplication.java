@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import io.github.cdimascio.dotenv.Dotenv;
 
 @SpringBootApplication
-public class PerformanceTrackApplication {
+public class
+PerformanceTrackApplication {
     public static void main(String[] args) {
         // Load .env and set them as system properties
         Dotenv dotenv = Dotenv.configure().ignoreIfMissing().load();
